@@ -1,4 +1,19 @@
-header{
-background-color: cyan;
+.zaglavlje{
 
- }
+    border-block-style: dashed;
+}
+.prvi-meni{
+    border-left: 10px;
+    background-color:red;
+    color: aliceblue;
+    padding-top: 2px;
+
+}
+.drugi-meni{
+    background-color: cyan;
+}
+.drugi-meni li {
+    list-style: none;
+    display: inline-block;
+
+}
