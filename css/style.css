@@ -3,6 +3,7 @@
     border-block-style: dashed;
 }
 .prvi-meni{
+    margin-top: 10px;
     border-left: 10px;
     background-color:red;
     color: aliceblue;
@@ -10,10 +11,19 @@
 
 }
 .drugi-meni{
-    background-color: cyan;
+    background-color:blue;
+    margin-top: 10px;
+
+;
 }
 .drugi-meni li {
+    padding-top: 2px;
     list-style: none;
     display: inline-block;
+    margin-left: 20px;
 
+}
+.drugi-meni li a{
+    color: aliceblue;
+    text-transform: uppercase;
 }
